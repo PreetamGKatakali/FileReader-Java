@@ -4,6 +4,14 @@ public class Student {
     private int id;
     private String name;
     private Double grade;
+    Student(){
+        
+    }
+    Student(int id,String name,Double grade){
+        this.id=id;
+        this.name=name;
+        this.grade=grade;
+    }
     public int getId() {
         return id;
     }
